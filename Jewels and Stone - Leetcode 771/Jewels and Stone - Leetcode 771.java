@@ -1,7 +1,7 @@
 
 class Solution {
     public int numJewelsInStones(String jewels, String stones) {
-        // Creăm un set de caractere unice pentru "jewels"
+        // Cream un set de caractere unice pentru "jewels"
         Set<Character> unique_jewels = new HashSet<>();
         unique_jewels = jewels.chars().mapToObj(c -> (char) c).collect(Collectors.toSet());
         int c = 0;
